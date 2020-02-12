@@ -8,7 +8,7 @@
  * Plugin URI: https://github.com/mpeshev/Theme-Mentor
  * Version: 0.1
  * Author: nofearinc
- * Author URI: http://devwp.eu/
+ * Author URI: https://devrix.com/
  * License: GPLv2 or later
  * 
  */

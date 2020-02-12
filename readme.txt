@@ -1,6 +1,6 @@
 === Theme Mentor ===
 Contributors: nofearinc
-Donate link: http://devwp.eu/
+Donate link: https://devrix.com/
 Tags: theme, review, testing, quality, code
 Requires at least: 3.3.1
 Tested up to: 4.6
