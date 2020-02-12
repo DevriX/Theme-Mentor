@@ -6,7 +6,7 @@
  * WordPress Theme Reviewers Team. It is prone to fault analysis, so use only as a reference for improving
  * your code base even further.
  * Plugin URI: https://github.com/mpeshev/Theme-Mentor
- * Version: 0.1
+ * Version: 0.2
  * Author: nofearinc
  * Author URI: https://devrix.com/
  * License: GPLv2 or later
