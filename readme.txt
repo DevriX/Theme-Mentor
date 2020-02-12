@@ -1,6 +1,5 @@
 === Theme Mentor ===
 Contributors: nofearinc
-Donate link: https://devrix.com/
 Tags: theme, review, testing, quality, code
 Requires at least: 3.3.1
 Tested up to: 4.6
@@ -65,3 +64,6 @@ It's not required, but it's highly recommended. Theme Mentor is the extra step o
 = 0.1 =
 * A first release.
 * Tracking script/link tag presence, query_posts calls, and wp_head/wp_footer position in files
+
+= 0.2 =
+* Code refactor
