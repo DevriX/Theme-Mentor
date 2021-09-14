@@ -120,7 +120,7 @@ private $wp_head_found = false;
 						false === strpos( $this->file[$this->head_close_tag_line - 1], '?>' ) ) {
 					$error_text = __( 'wp_head call should be right before the closing head tag.', 'dx_theme_mentor' );
 					
-					$this->error_message[] = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span>, line <span class="tm_line">%d</span></div>',
+					$this->error_message = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span>, line <span class="tm_line">%d</span></div>',
 							$error_text, 'header.php', $this->head_close_tag_line + 1 );
 				}
 			}
