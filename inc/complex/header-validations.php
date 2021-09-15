@@ -93,7 +93,7 @@ private $wp_head_found = false;
 			foreach( $lines_found as $line => $snippet ) {
 				if( false === strpos( $snippet, 'wp_title(') ) {
 					$error_text = __( 'Missing wp_title() hook inside of title tags', 'dx_theme_mentor' );
-					$this->error_message[] = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span>, line <span class="tm_line">%d</span></div>',
+					$this->error_message = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span>, line <span class="tm_line">%d</span></div>',
 							$error_text, 'header.php', $line + 1 );
 				}
 			}
@@ -126,7 +126,7 @@ private $wp_head_found = false;
 			}
 		} else {
 			$error_text = __( 'No wp_head or closing head tag found', 'dx_theme_mentor' );
-			$this->error_message[] = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span></div>',
+			$this->error_message = sprintf( '<div class="tm_report_row"><span class="tm_message">%s</span> at file <span class="tm_file">%s</span></div>',
 					$error_text, 'header.php');
 		}
 
