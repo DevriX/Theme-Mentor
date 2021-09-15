@@ -2,9 +2,9 @@
 
 /**
  * Interface for the complex executions
- * 
+ *
  * Reads all files during their iteration and gathers data
- * 
+ *
  * @author nofearinc
  *
  */
@@ -14,15 +14,15 @@ interface Theme_Mentor_Executor {
 		 * @param string $filename filename
 		 * @param string $file content of the file
 		 */
-		public function crawl( $filename, $file );
-		
+	public function crawl( $filename, $file );
+
 		/**
 		 * Aggregating the data if needed after the iteration process, like stats, some array management, etc
 		 */
-		public function execute( );
-		
+	public function execute();
+
 		/**
 		 * Describe to the regular human being what's going on, if anything
 		 */
-		public function get_description();
+	public function get_description();
 }
